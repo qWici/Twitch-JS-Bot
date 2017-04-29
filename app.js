@@ -20,7 +20,7 @@ client.connect();
 
 // User join to chat
 client.on("join", function (channel, username, self) {
-   client.action("your-channel-here", username + " , glad to see you! Use !cmd for watch commands list.");
+   client.action("your-channel-here", username + " , glad to see you!");
 });
 
 // Timeout function
