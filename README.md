@@ -14,6 +14,7 @@ identity: {
 },
 channels: ["your-channel-here"]
 ```
+`oauthtoken` you can get [here](https://twitchapps.com/tmi/)
 4. Run bot `node app.js`
 
 ## Commands
