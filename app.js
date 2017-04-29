@@ -45,8 +45,8 @@ function splitMessage(message) {
 // Commands
 client.on('chat', function (channel, username, message, self) {
 
-    // Admin commands
     if(username.username === "your-channel-here"){
+        // Admin commands
         splitMessage(message);
     } else {
         // Users commands
