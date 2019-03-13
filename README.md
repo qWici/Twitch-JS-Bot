@@ -5,17 +5,28 @@ Simple Twitch bot using tmi.js
 
 ## Install
 1. Clone repository
-2. Install modules `npm i`
-3. Setting up bot in `app.js`
+
+2. Install modules `npm i` or `yarn install`
+
+3. Copy example config
+
+    ```bash
+    cp config/default.example.json5 config/default.json5
+    ```
+    
+4. Setup bot
+
+`oauth_token` you can get [here by login via bot](https://twitchapps.com/tmi/)
+
 ```
-identity: {
+bot: {
     username: "your-bots-username-here",
-    password: "oauthtokenhere"
+    oauth_token: "oauthtokenhere"
 },
-channels: ["your-channel-here"]
+channel: "your-channel-here"
 ```
-`oauthtoken` you can get [here](https://twitchapps.com/tmi/)
-4. Run bot `node app.js`
+
+5. Run bot `node bot.js`
 
 ## Commands
 ### For admin
@@ -26,7 +37,7 @@ channels: ["your-channel-here"]
 - `!fb` - Send you Facebook link
 - `!twt` - Send you Twitter link
 
-## Community
-
-- Follow [@KucherDev on Twitter](https://twitter.com/KucherDev).
-- Have a questions? [My telgram](https://t.me/qWici).
+## Get in touch
+- Me on Medium [@KucherDev](https://medium.com/@KucherDev)
+- Follow [@KucherDev on Twitter](https://twitter.com/KucherDev)
+- Have a questions? [My telegram](https://t.me/qWici)
