@@ -3,6 +3,11 @@
 # Twitch JS Bot
 Simple Twitch bot using tmi.js
 
+## Version 2
+With Jest, TMI.js, Nodemon, Config, Babel
+[twitch-bot-boilerplate](https://github.com/qWici/twitch-bot-boilerplate)
+
+
 ## Install
 1. Clone repository
 
